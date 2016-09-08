@@ -1,0 +1,32 @@
+[
+    {
+        "keys": ["ctrl+alt+l"],
+        "command": "reindent" ,
+        "args": { "single_line": false } },
+    {
+        "keys": ["ctrl+["],
+        "command": "_enter_normal_mode",
+        "args": {"mode": "mode_insert"},
+        "context": [{"key": "vi_insert_mode_aware"}]
+    },
+    {
+        "keys": ["j", "j"],
+        "command": "_enter_normal_mode",
+        "args": {
+            "mode": "mode_insert"
+        },
+        "context": [{"key": "vi_insert_mode_aware"}]
+    },
+    {
+        "keys": ["ctrl+e"],
+        "command": "move_to",
+        "args": {"to": "eol", "extend": false}
+    },
+    {
+        "keys": ["ctrl+a"],
+        "command": "move_to",
+        "args": {"to": "hardbol", "extend": false}
+    },
+    { "keys": ["alt+right"], "command": "next_view" },
+    { "keys": ["alt+left"], "command": "prev_view" },
+]

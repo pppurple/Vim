@@ -1,0 +1,48 @@
+{
+
+	// インデント
+	"auto_indent": true, // オートインデント
+	"use_tab_stops": true, // インデントに使われているスペースの削除方法を設定します。 trueの場合、[Back Space]キーで次のタブストップまでスペースを削除し、falseの場合はスペースを1つ削除します。
+	"detect_indentation": true, // ファイルを開いた時、その内容からインデント幅をいくつにするかと、タブの代わりにスペースを使用するかを判断し自動設定します。
+	"smart_indent": true, // いい感じにインデントしてくれる
+	"draw_indent_guides": true, // インデントのガイドを表示
+	"indent_to_bracket": true, // 括弧までインデントする
+	"tab_size": 4, // タブサイズ（１タブのスペースの数）
+	"translate_tabs_to_spaces": true, // タブではなくスペースを使用する
+	"indent_guide_options": // インデントの種類によって色分けする
+	[
+		"draw_normal",
+		"draw_active"
+	],
+
+	// 空白
+	"drag_text": false, // 選択しているテキストをドラッグで位置を変えられないように（操作ミスをなくす）
+	"draw_white_space": "all", // すべての空白にマークを表示する
+	"ensure_newline_at_eof_on_save": true, // 最後の行を空白行にして保存
+	"match_tags": true, // 対応する開きタグと閉じタグを強調する
+	"trim_automatic_white_space": true, // キャレットを行から外したときに自動インデントで追加された空白を削除する
+	"trim_trailing_white_space_on_save": true, // ファイルセーブ時に行末の空白を自動で削除する
+
+	// ユーザインターフェイス
+	"font_face": "Consolas", // フォントファミリー
+	"highlight_line": true, // 選択している行をハイライトする
+	"gutter": true, // ガーターを表示する テキストエリアの左側にある、行番号や折り畳みボタンが表示されてるエリアの事
+	"line_numbers": true, // ガーターに行番号を表示
+	"highlight_modified_tabs": true, // 変更されたファイルのタブがハイライトされます。
+	"open_files_in_new_window": false, // 新しいファイルを開くときに新しいウィンドウで開かない
+	"show_full_path": true, // ファイルのフルパスを表示する
+	"word_wrap": "auto", // テキストがプログラムのソースコードなら折り返しが無効、それ以外は有効になる
+	"ignored_packages": // 不要な言語のパッケージを無効化
+	[
+		"Vintage"
+	],
+	"vintageous_use_ctrl_keys": true, // vintageousの設定　ctrl キーを使用する vim のショートカットが使えるようにする
+	"vintageous_reset_mode_when_switching_tabs": false, // ファイルを開いたときにコマンドモードで始まるようにする
+	"theme": "Soda Dark 3.sublime-theme", // Sodaテーマ
+	"soda_classic_tabs": true, // Sodaでタブをクラシックに戻す
+
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?", // 単語の区切り文字を設定する（ハイフンを消してる） ダブルクリックや[Ctrl+d]で単語単位選択する時、選択範囲を区切るのに使う文字の設定
+
+    "vintage_use_clipboard": true, // ヤンクとクリップボードの同期
+    "vintageous_use_sys_clipboard": true,
+}
